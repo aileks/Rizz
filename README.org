@@ -6,15 +6,16 @@ WIP: A basic task tracker built with Spring Boot.
 
 ** Stack
 
-- Java 21, Spring Boot 3.3.1
+- Java 21
+- Spring Boot 3.3.1
 - Spring Web
 - Spring Data JPA
 - PostgreSQL
 
 ** Planned MVP Features
 
-- [ ] Tasks
-  * [ ] Create, view, edit, and delete tasks
+- [-] Tasks
+  * [-] Create, view, edit, and delete tasks
   * [ ] Task statuses (planned, in progress, completed, cancelled)
   * [ ] Task priority (low, medium, high)
 - [ ] Due Dates
