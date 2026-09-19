@@ -1,0 +1,42 @@
+#+title: Readme
+
+* Rizz - A Task Tracker
+
+WIP: A basic task tracker built with Spring Boot.
+
+** Stack
+
+- Java 21, Spring Boot 3.3.1
+- Spring Web
+- Spring Data JPA
+- PostgreSQL
+
+** Planned MVP Features
+
+- [ ] Tasks
+  * [ ] Create, view, edit, and delete tasks
+  * [ ] Task statuses (planned, in progress, completed, cancelled)
+  * [ ] Task priority (low, medium, high)
+- [ ] Due Dates
+  * [ ] Set due dates
+  * [ ] Identify overdue tasks
+- [ ] Basic UI
+
+** Planned Post-MVP Features
+
+- [ ] User Accounts
+  * [ ] Authentication
+  * [ ] User-specific tasks
+- [ ] Collaboration
+  * [ ] Assign tasks to users
+  * [ ] Comments
+- [ ] Sub-tasks
+- [ ] More complete UI
+
+** Getting Started
+
+#+begin_src bash
+./mvnw spring-boot:run
+#+end_src
+
+App runs at [[http://localhost:8080][http://localhost:8080]].
