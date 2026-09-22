@@ -3,6 +3,7 @@ package dev.aileks.Rizz.tasks;
 import dev.aileks.Rizz.tasks.dto.CreateTaskRequest;
 import dev.aileks.Rizz.tasks.dto.TaskResponse;
 import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,7 @@ public class TaskController {
     this.taskRepository = taskRepository;
   }
 
+  @GetMapping
   public List<Task> getTask() {
     return taskRepository.findAll();
   }
